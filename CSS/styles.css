@@ -8,6 +8,20 @@ body {
     letter-spacing: 2%;
 }
 
+.Logo-title {
+     font-family: "Raleway", sans-serif;
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 1.17;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+     color: #4d5ae5
+}
+
+.logo-title-logo {
+    color: #2e2f42;
+}
+
 h1 {
     position: absolute;
 width: 496px;
@@ -66,12 +80,18 @@ button {
 
 .link-title {
     font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 4%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.002em;
     text-decoration: underline;
+    color: #2e2f42
 }
+
+.link-title:hover, .link-title:focus {
+    color: #404bbf
+}
+
 
 .link-title-tel {
    font-family: 'Roboto';
@@ -112,27 +132,4 @@ button:hover, button:focus {
 footer {
     background-color: #2e2f42;
 }
-
-.fon-title {
-    position: absolute;
-width: 1440px;
-height: 600px;
-left: 0px;
-top: 72px;
-background: #2E2F42;
-}
-position: absolute;
-width: 496px;
-height: 120px;
-left: 472px;
-top: 260px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 56px;
-line-height: 60px;
-text-align: center;
-letter-spacing: 0.02em;
-color: #FFFFFF;
-
 
