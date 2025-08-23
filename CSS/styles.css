@@ -45,19 +45,19 @@ h2 {
     letter-spacing: 2%;
 }
 
-h3 {
+.spdt-title {
     font-family: "Roboto", sans-serif;
-    font-weight: normal;
+    font-weight: 500;
     font-size: 20px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
-
-p {
+.spdt-title-section {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
-    font-size: 12px;
-    letter-spacing: 2%;
-    line-height: 14px;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 
 .fon-title {
@@ -78,6 +78,11 @@ p {
 .button-title:hover {
     background-color: #404BBF;
 }
+
+.button-title:focus {
+     background-color: #404BBF;
+}
+
 .link-title {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -111,22 +116,6 @@ p {
    line-height: 24px;
    letter-spacing: 0.02em;
    color: #404BBF;
-}
-button:hover, button:focus {
-    cursor: pointer;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 16px 32px;
-    gap: 10px;
-    position: absolute;
-    width: 169px;
-    height: 56px;
-    left: 20px;
-    top: 88px;
-    background: #404BBF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
 }
 
 footer {
