@@ -8,7 +8,7 @@ body {
     letter-spacing: 2%;
 }
 
-.Logo-title {
+.logo-title {
      font-family: "Raleway", sans-serif;
      font-weight: 700;
      font-size: 18px;
@@ -22,12 +22,11 @@ body {
     color: #2e2f42;
 }
 
-.Heading-title {
-    position: absolute;
-width: 496px;
-height: 120px;
-left: 472px;
-top: 260px;
+.addreess-title {
+    font-style: normal;
+}
+
+.heading-title {
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -38,11 +37,19 @@ letter-spacing: 0.02em;
 color: #FFFFFF;
 }
 
-h2 {
+.op-title {
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     font-size: 36px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42
+}
+
+.ul-title {
+    background-color: #FFFFFF;
 }
 
 .spdt-title {
@@ -73,6 +80,7 @@ h2 {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .button-title:hover {
@@ -88,7 +96,7 @@ h2 {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.002em;
+    letter-spacing: 0.02em;
     text-decoration: underline;
     color: #2e2f42
 }
@@ -118,7 +126,15 @@ h2 {
    color: #404BBF;
 }
 
-footer {
+.link-title-tel:focus {
+    color: #404bbf
+}
+
+.photo-title {
+    background-color: #F4F4FD;
+}
+
+.footer-title {
     background-color: #2e2f42;
 }
 
