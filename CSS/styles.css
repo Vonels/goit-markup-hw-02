@@ -60,24 +60,20 @@ p {
     line-height: 14px;
 }
 
-button {
+.button-title {
     background-color: #4d5ae5;
-    width: 105px;
-    height: 24px;
-    font-family: 'Roboto';
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
+.button-title:hover {
+    background-color: #404bbf;
+}
 .link-title {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
